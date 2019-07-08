@@ -33,3 +33,7 @@ const minimumSwaps2 = (arr) => {
     }
     return count;
 }
+
+let arr = [7,1,3,2,4,5,6] //5
+// let arr2 = [2,1,5,3,4] // 3
+console.log(minimumSwaps2(arr));
